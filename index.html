@@ -25,13 +25,15 @@
           <h3>Отримайте безкоштовне заняття сьогодні та закохайте дитину в
             ІТ назавжди</h3>
 
-          <form action="">
-            <input type="text" placeholder="Ім'я та Прізвище">
-            <input type="tel" value="+380" placeholder="+380 00 000 0000">
-            <input type="email" placeholder="Електронна пошта">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key"
+                   value="22134d84-0271-4b24-b511-6aefc3aa95b3">
+            <input type="text" name="name: " placeholder="Ім'я та Прізвище" required>
+            <input type="tel" name="phone_number: " value="+380" placeholder="+380 00 000 0000" required>
+            <input type="email" name="email: " placeholder="Електронна пошта" required>
 
             <p class="form__approve">Натискаючи на цю кнопку, Ви погоджуєтеся
-              з<a href="https://robocode.ua/policy-ua">умовами
+              з<a href="https://robocode.ua/policy-ua" target="_blank">умовами
                 конфіденційності</a> користувача
             </p>
 
