@@ -1,0 +1,51 @@
+html {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  * {
+    margin-left: 3.5vw;
+  }
+
+  #robocode__logo {
+    margin-left: 4vw;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 12px;
+    margin-left: -0.3vw;
+  }
+
+  .adv__slogan {
+    margin-top: 35px;
+    background-color: #1771fd;
+    padding: 6px;
+    border-radius: 20px;
+    margin-bottom: 55px;
+
+    h1 {
+      color: #fff;
+    }
+
+    p {
+      color: #e4e0e0;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+#robocode__logo {
+  display: block;
+  width: 80vw;
+
+}

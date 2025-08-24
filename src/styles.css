@@ -1,0 +1,46 @@
+html {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container * {
+  margin-left: 3.5vw;
+}
+.container #robocode__logo {
+  margin-left: 4vw;
+}
+.container h4 {
+  text-align: center;
+  font-size: 12px;
+  margin-left: -0.3vw;
+}
+.container .adv__slogan {
+  margin-top: 35px;
+  background-color: #1771fd;
+  padding: 6px;
+  border-radius: 20px;
+  margin-bottom: 55px;
+}
+.container .adv__slogan h1 {
+  color: #fff;
+}
+.container .adv__slogan p {
+  color: #e4e0e0;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#robocode__logo {
+  display: block;
+  width: 80vw;
+}
+
+/*# sourceMappingURL=styles.css.map */
